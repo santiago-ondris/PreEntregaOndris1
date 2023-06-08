@@ -1,0 +1,673 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+body {
+  background-color: #FFFFFF;
+  overflow-x: hidden;
+}
+
+p {
+  color: rgb(20, 12, 110);
+  font-weight: 400;
+  font-size: 1, 6em;
+  line-height: 1, 7em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.topbar {
+  text-align: center;
+  background-color: #95A5A6;
+  padding: 5px;
+  color: #FFFFFF;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin: 40px;
+  color: black;
+}
+
+.contenedor {
+  background-color: beige;
+  height: auto;
+  padding: 5px;
+  border: solid 6px black;
+  text-align: center;
+}
+
+.borde {
+  border: solid 4px black;
+}
+
+section div form {
+  display: inline-block;
+}
+
+.destacado {
+  font-size: 4em;
+  height: auto;
+  color: black;
+  padding: 10px;
+}
+
+.textomenor {
+  font-size: 2em;
+  height: auto;
+  color: black;
+  padding: 3px;
+}
+
+#formulario {
+  margin: 10px;
+}
+
+#bordedos {
+  border-top: black solid;
+}
+
+.formu {
+  background-color: cadetblue;
+  width: 100%;
+  height: auto;
+  margin: 10px auto;
+  padding: 5px;
+  border: solid 3px black;
+  text-align: center;
+  font-size: 25px;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  background-color: #e6ebeb;
+  padding: 2px;
+  margin: 10px;
+}
+
+th {
+  background-color: black;
+  color: #e6ebeb;
+  border-bottom: slateblue solid 5px;
+}
+
+tr:hover {
+  background-color: skyblue;
+}
+
+#banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.principio {
+  text-align: center;
+  margin: 10px;
+}
+
+.cartitas {
+  text-align: center;
+  font-size: xx-large;
+  background-color: rgb(223, 223, 223);
+  border-top: black solid 4px;
+  padding: 50px;
+}
+
+.precio {
+  color: black;
+}
+
+.filtros {
+  margin-left: 15px;
+}
+
+.filtrotalless {
+  padding: 15px 40px;
+  background-color: #e6ebeb;
+  color: #95A5A6;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: large;
+}
+
+.salsa {
+  width: 100%;
+  height: 46px;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  color: black;
+  border: black solid 1px;
+  margin-bottom: 20px;
+}
+
+.miel {
+  width: 100%;
+  height: 46px;
+  border: 0;
+  background-color: #d0ecf8;
+  border: black solid 2px;
+}
+
+.contenedor-dos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.primercarrusel {
+  margin: 20px;
+}
+
+.centroboton {
+  display: flex;
+  justify-content: center;
+}
+
+.centrocontacto {
+  box-sizing: border-box;
+}
+
+.cajacontacto {
+  width: 350px;
+  margin: 20px;
+  pad: 20px;
+}
+
+.espaciocontacto {
+  display: flex;
+  flex-direction: row;
+}
+
+.centroboton {
+  display: flex;
+  justify-content: center;
+}
+
+.centrocontacto {
+  box-sizing: border-box;
+}
+
+.cajacontacto {
+  width: 350px;
+  margin: 20px;
+  pad: 20px;
+}
+
+.espaciocontacto {
+  display: flex;
+  flex-direction: row;
+}
+
+nav {
+  font-weight: 300;
+  font-size: 20px;
+  padding: 7px 20px;
+  margin: 10px;
+  position: sticky;
+  border-bottom: solid black 3px;
+  border-top: solid black 3px;
+  color: #D3F2FF;
+}
+nav img {
+  width: 150px;
+}
+
+footer li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+}
+footer div a {
+  text-decoration: none;
+}
+
+#titulofooter {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.productos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 5px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+#botonprod {
+  background-color: black;
+  border: whitesmoke solid 3px;
+  color: wheat;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  padding: 32px 38px;
+  transition-duration: 0.5s;
+}
+
+.cajaproducto {
+  text-align: center;
+  font-size: 20px;
+  background-color: gainsboro;
+}
+
+main div div ul li {
+  list-style: none;
+  padding: 5px;
+  transform: 0.5s;
+  width: 100%;
+}
+
+main div div ul li:hover {
+  transform: scale(1.1);
+  z-index: 100;
+  background-color: beige;
+}
+
+.cajaestilo {
+  border-bottom: black solid 2px;
+}
+
+.carta {
+  background-color: #95A5A6;
+}
+
+#botonproducto {
+  background-color: #95A5A6;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 12px 40px;
+  margin: 6px;
+  text-align: center;
+  touch-action: manipulation;
+}
+
+#textoproducto {
+  color: black;
+  margin-top: 20px;
+}
+
+#precioproducto {
+  font-size: 25px;
+  color: black;
+}
+
+main ul div a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+main div section button {
+  background-color: #95A5A6;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-shadow: #FFFFFF 4px 4px 0 0, black 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 10px;
+  margin: 0 5px 10px 0;
+  padding: 12px 40px;
+  text-align: center;
+  touch-action: manipulation;
+}
+main div label {
+  font-size: 20px;
+  padding: 5px;
+}
+main div input, main div .inputcajita textarea, .inputcajita main div textarea {
+  margin-top: 10px;
+  border: black solid 2px;
+  border-radius: 4px;
+}
+
+.newsletter {
+  width: auto;
+  text-align: center;
+  padding: 3px;
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.newsletter h4 {
+  text-transform: uppercase;
+  font-size: 26px;
+  width: 100%;
+}
+.newsletter p {
+  padding: 20px 0;
+  color: #1c1f20;
+  font-size: 25px;
+  line-height: 24px;
+}
+
+#superbtn {
+  background-color: #95A5A6;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 12px 40px;
+  margin: 6px;
+}
+
+#espacionews {
+  padding: 15px;
+  margin-top: 50px;
+}
+
+.contactanos {
+  position: relative;
+  width: 100%;
+  padding: 40px 100px;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactanos .titulo h2 {
+  color: #95A5A6;
+  font-weight: 500;
+}
+
+.contacto-formu {
+  grid-area: contacto-formu;
+}
+
+.contacto-info {
+  grid-area: contacto-info;
+}
+
+.contacto-mapa {
+  grid-area: contacto-mapa;
+}
+
+.cajafondo {
+  padding: 40px;
+  background-color: #95A5A6;
+}
+
+.cajacontacto {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 5fr 4fr;
+  grid-template-areas: "contacto-formu contacto-info" "contacto-formu contacto-mapa";
+  grid-gap: 20px;
+  margin-bottom: 20px;
+}
+
+.estiloformu {
+  position: relative;
+  width: 100%;
+}
+
+.estiloformu .row50 {
+  display: flex;
+  gap: 20px;
+}
+
+.inputcajita {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 50%;
+}
+.inputcajita span {
+  color: #FFFFFF;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.inputcajita input, .inputcajita textarea {
+  padding: 10px;
+  outline: none;
+  border: 1px solid black;
+}
+.inputcajita textarea {
+  resize: none;
+  min-height: 220px;
+  margin-bottom: 10px;
+}
+
+.estiloformu .row100 .inputcajita {
+  width: 100%;
+}
+
+.contacto-info .infobox div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.contacto-info .infobox div span {
+  min-width: 40px;
+  height: 40px;
+  color: #FFFFFF;
+  background-color: rgb(20, 12, 110);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.contacto-info .infobox div p {
+  color: #FFFFFF;
+  font-size: 1.5em;
+}
+.contacto-info .infobox div a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.ico {
+  margin-top: 40px;
+  display: flex;
+}
+.ico li {
+  list-style: none;
+  margin-right: 15px;
+}
+.ico a {
+  color: #FFFFFF;
+  font-size: 2em;
+}
+.ico a :hover {
+  color: beige;
+}
+
+.contacto-mapa {
+  padding: 0;
+}
+.contacto-mapa iframe {
+  width: 100%;
+  height: 100%;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 2.4em;
+  color: black;
+}
+
+@media (max-width: 990px) {
+  .contactanos {
+    padding: 10px;
+  }
+  .cajacontacto {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "contacto-formu" "contacto-info" "contacto-mapa";
+  }
+  .contacto-mapa {
+    min-height: 300px;
+  }
+  .estiloformu .row50 {
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+  }
+  .inputcajita {
+    width: 100%;
+  }
+}
+.faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+}
+
+.preguntas {
+  margin: 0 40px;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.preguntas h1 {
+  color: black;
+}
+.preguntas .tab {
+  position: relative;
+  background-color: #95A5A6;
+  padding: 0 20px 20px;
+  box-shadow: 0 15px 25px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.preguntas .tab input, .preguntas .tab .inputcajita textarea, .inputcajita .preguntas .tab textarea {
+  appearance: none;
+}
+.preguntas .tab label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.preguntas .tab label h2 {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.25em;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.preguntas .tab .informacion {
+  max-height: 0;
+  transition: 1s;
+  overflow: hidden;
+}
+.preguntas .tab .informacion p {
+  position: relative;
+  padding: 10px;
+  color: black;
+  z-index: 10;
+}
+
+.preguntas .tab label::after {
+  content: "+";
+  position: absolute;
+  right: 20px;
+  font-size: 2em;
+  color: black;
+  transition: transform 1s;
+}
+
+.preguntas .tab input:checked ~ label::after, .preguntas .tab .inputcajita textarea:checked ~ label::after, .inputcajita .preguntas .tab textarea:checked ~ label::after {
+  transform: rotate(135deg);
+}
+
+.preguntas .tab input:checked ~ .informacion, .preguntas .tab .inputcajita textarea:checked ~ .informacion, .inputcajita .preguntas .tab textarea:checked ~ .informacion {
+  max-height: 100vh;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.error img {
+  height: 300px;
+}
+.error button {
+  width: auto;
+}
+
+@media (max-width: 900px) {
+  .error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .error img {
+    height: 180px;
+  }
+  .error p {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  .error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .error img {
+    height: 120px;
+  }
+  .error p {
+    width: 100%;
+    text-align: center;
+  }
+}
+.borderbox {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=style.css.map */

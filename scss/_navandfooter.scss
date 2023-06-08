@@ -1,0 +1,32 @@
+nav{
+    font-weight: 300;
+    font-size: $espacio-doble;
+    padding: 7px $espacio-doble;
+    margin: $espacio-estandar;
+    position: sticky;
+    border-bottom: solid $thirdColor 3px;
+    border-top: solid $thirdColor 3px;
+    color: #D3F2FF;
+        img{
+        width: 150px;
+        }    
+}
+footer{ 
+    li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: $espacio-estandar;
+    margin: $espacio-estandar;
+    }
+    div{
+        a{
+            text-decoration: none;
+        }
+    }
+}    
+#titulofooter{
+    font-size: $espacio-doble;
+    color: $thirdColor;
+    text-decoration: none;
+}
