@@ -62,10 +62,10 @@
         <div class="row">
             <div class="col col-lg-2 col-sm-0 col-md-0 text-center filtros">
                 <h3>Colores</h3>
-                <ul class="nav flex-column">
-                    <li><span></span>Negro</li>
-                    <li><span></span>Verde</li>
-                    <li><span></span>Suela</li>
+                <ul class="nav flex-column" id="tony">
+                    <li  data-color="negro"><span></span>Negro</li>
+                    <li data-color="verde"><span></span>Verde</li>
+                    <li data-color="suela"><span></span>Suela</li>
                 </ul>
               <section>
                 <h3>Talles</h3>
@@ -97,79 +97,80 @@
                 </div>
             </div>   
             <div class="col col-lg-9 col-sm-6 d-flex flex-wrap justify-content-around"> 
-                    <div class="card m-2 cajaproducto"> 
+                    <div class="card m-2 cajaproducto" data-color="negro"> 
                     <img src="../imagenes/productos/andromeda.png" alt="Andromeda" class="card-img-top cajaestilo" height="300px">  
                     <p id="textoproducto">Borcego Andromeda Negro</p> 
                     <p id="precioproducto">$27.500</p>
-                    <button id="botonproducto">Agregar al carrito</button>
+                    <button id="botonproducto" data-id="andromedanegro">Agregar al carrito</button>
                     </div>
-                    <div class="card m-2 cajaproducto"> 
+                    <div class="card m-2 cajaproducto" data-color="negro"> 
                     <img src="../imagenes/productos/antares.png" alt="Antares" class="card-img-top cajaestilo" height="300px">  
                     <p id="textoproducto">Zapatito Antares Negro</p> 
                     <p id="precioproducto">$22.500</p>
-                    <button id="botonproducto">Agregar al carrito</button>
+                    <button id="botonproducto" data-id="antaresnegro">Agregar al carrito</button>
                    </div>
-                   <div class="card m-2 cajaproducto"> 
+                   <div class="card m-2 cajaproducto" data-color="negro"> 
                     <img src="../imagenes/productos/capricornio.png" alt="Capricornio" class="card-img-top cajaestilo" height="300px">  
                     <p id="textoproducto">Borcego Capricornio Negro</p> 
                     <p id="precioproducto">$29.500</p>
-                    <button id="botonproducto">Agregar al carrito</button>
+                    <button id="botonproducto" data-id="capricornionegro">Agregar al carrito</button>
                    </div>
-                   <div class="card m-2 cajaproducto"> 
+                   <div class="card m-2 cajaproducto" data-color="negro"> 
                     <img src="../imagenes/productos/centauro.png" alt="Centauro" class="card-img-top cajaestilo" height="300px">  
                     <p id="textoproducto">Bota Centauro Negro</p> 
                     <p id="precioproducto">$27.500</p>
-                    <button id="botonproducto">Agregar al carrito</button>
+                    <button id="botonproducto" data-id="centauronegro">Agregar al carrito</button>
                    </div>
-                   <div class="card m-2 cajaproducto"> 
+                   <div class="card m-2 cajaproducto" data-color="negro"> 
                     <img src="../imagenes/productos/fenix.png" alt="Fenix" class="card-img-top cajaestilo" height="300px">  
                     <p id="textoproducto">Bota Fenix Negro</p> 
                     <p id="precioproducto">$28.500</p>
-                    <button id="botonproducto">Agregar al carrito</button>
+                    <button id="botonproducto" data-id="fenixnegro">Agregar al carrito</button>
                    </div>
-                   <div class="card m-2 cajaproducto"> 
+                   <div class="card m-2 cajaproducto" data-color="negro"> 
                     <img src="../imagenes/productos/libra.png" alt="Libra" class="card-img-top cajaestilo" height="300px">  
                     <p id="textoproducto">Bota Libra Negro</p> 
                     <p id="precioproducto">$26.500</p>
-                    <button id="botonproducto">Agregar al carrito</button>
+                    <button id="botonproducto" data-id="libranegro">Agregar al carrito</button>
                    </div>
-                   <div class="card m-2 cajaproducto"> 
+                   <div class="card m-2 cajaproducto" data-color="negro"> 
                     <img src="../imagenes/productos/mercurio.png" alt="Mercurio" class="card-img-top cajaestilo" height="300px">  
                     <p id="textoproducto">Borcego Mercurio Negro</p> 
                     <p id="precioproducto">$30.500</p>
-                    <button id="botonproducto">Agregar al carrito</button>
+                    <button id="botonproducto" data-id="mercurionegro">Agregar al carrito</button>
                    </div>
-                   <div class="card m-2 cajaproducto"> 
+                   <div class="card m-2 cajaproducto" data-color="negro"> 
                     <img src="../imagenes/productos/pegasus.png" alt="Pegasus" class="card-img-top cajaestilo" height="300px">  
                     <p id="textoproducto">Bota Pegasus Negro</p> 
                     <p id="precioproducto">$27.500</p>
-                    <button id="botonproducto">Agregar al carrito</button>
+                    <button id="botonproducto" data-id="pegasusnegro">Agregar al carrito</button>
                    </div>
-                   <div class="card m-2 cajaproducto"> 
+                   <div class="card m-2 cajaproducto" data-color="negro"> 
                     <img src="../imagenes/productos/tauro.png" alt="Tauro" class="card-img-top cajaestilo" height="300px">  
                     <p id="textoproducto">Bota Tauro Negra</p> 
                     <p id="precioproducto">$29.500</p>
-                    <button id="botonproducto">Agregar al carrito</button>
+                    <button id="botonproducto" data-id="tauronegro">Agregar al carrito</button>
                    </div>
-                   <div class="card m-2 cajaproducto"> 
+                   <div class="card m-2 cajaproducto" data-color="negro"> 
                     <img src="../imagenes/productos/vega.png" alt="Vega" class="card-img-top cajaestilo" height="300px">  
                     <p id="textoproducto">Zapatito Vega Negro</p> 
                     <p id="precioproducto">$23.500</p>
-                    <button id="botonproducto">Agregar al carrito</button>
+                    <button id="botonproducto" data-id="veganegro">Agregar al carrito</button>
                    </div>
-                   <div class="card m-2 cajaproducto"> 
+                   <div class="card m-2 cajaproducto" data-color="suela"> 
                     <img src="../imagenes/productos/venus.png" alt="Venus" class="card-img-top cajaestilo" height="300px">  
                     <p id="textoproducto">Borcego Venus Suela</p> 
                     <p id="precioproducto">$28.500</p>
-                    <button id="botonproducto">Agregar al carrito</button>
+                    <button id="botonproducto" data-id="venussuela">Agregar al carrito</button>
                    </div>
-                   <div class="card m-2 cajaproducto"> 
+                   <div class="card m-2 cajaproducto" data-color="verde"> 
                     <img src="../imagenes/productos/venusverde.png" alt="Venus" class="card-img-top cajaestilo" height="300px">  
                     <p id="textoproducto">Borcego Venus Verde</p> 
                     <p id="precioproducto">$28.500</p>
-                    <button id="botonproducto">Agregar al carrito</button>
+                    <button id="botonproducto" data-id="venusverde">Agregar al carrito</button>
                    </div>                                                                                                                                                                                                               
             </div>
+            <ul id="carrito"></ul>
     </main>
     <footer class="pt-5 pb-4">
       <div class="container text-center text-md-left cajaestilo" id="bordedos">
@@ -205,6 +206,6 @@
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>  
-    <script src="js/app.js"></script>
+    <script src="../js/app.js"></script>
 </body>
 </html>
