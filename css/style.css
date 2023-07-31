@@ -671,3 +671,19 @@ h2 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* Estilo para la disposición en mosaico */
+/* Estilo para la disposición en mosaico */
+
+
+.product-gridp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cajaproductop {
+  flex-basis: calc(33.33% - 25px); /* Cada producto ocupa aproximadamente un tercio del ancho con un espacio de 20px entre ellos */
+  margin-bottom: 20px; 
+}
+

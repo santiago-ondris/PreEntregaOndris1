@@ -1,0 +1,15 @@
+{ "productos" : [
+    { "nombre": "Borcego Andromeda", "precio": 27500, "color": "negro", "categoria": "Borcegos", "id": "andromedanegro" },
+    { "nombre": "Borcego Capricornio", "precio": 29500, "color": "negro", "categoria": "Borcegos", "id": "capricornionegro" },
+    { "nombre": "Bota Centauro", "precio": 27500, "color": "negro", "categoria": "Botas", "id": "centauronegro" },
+    { "nombre": "Borcego Mercurio", "precio": 30500, "color": "negro", "categoria": "Borcegos", "id": "mercurionegro" },
+    { "nombre": "Borcego Venus", "precio": 28500, "color": "suela", "categoria": "Borcegos", "id": "venussuela" },
+    { "nombre": "Bota Libra", "precio": 26500, "color": "negro", "categoria": "Botas", "id": "libranegro" },
+    { "nombre": "Zapatito Vega", "precio": 23500, "color": "negro", "categoria": "Zapatitos", "id": "veganegro" },
+    { "nombre": "Borcego Venus", "precio": 29500, "color": "verde", "categoria": "Borcegos", "id": "venusverde" },
+    { "nombre": "Bota Pegasus", "precio": 27500, "color": "negro", "categoria": "Botas", "id": "pegasusnegro" },
+    { "nombre": "Zapatito Antares", "precio": 22500, "color": "negro", "categoria": "Zapatitos", "id": "antaresnegro" },
+    { "nombre": "Bota Fenix", "precio": 28500, "color": "negro", "categoria": "Botas", "id": "fenixnegro" },
+    { "nombre": "Bota Tauro", "precio": 29500, "color": "negro", "categoria": "Botas", "id": "tauronegro" }
+  ]}
+

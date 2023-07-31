@@ -1,36 +1,3 @@
-// function procesarCompra() {
-//   for (let i = 1; i <= 10; i++) {
-//     let cantidad = prompt("Ingresa cuantos borcegos queres");
-//     if (cantidad >= 1 && cantidad <= 10) {
-//       alert("Comunicate con venta minorista");
-//     } else if (cantidad > 10 && cantidad <= 20) {
-//       alert("Comunicate con venta mayorista");
-//     } else if (cantidad > 20) {
-//       alert("No podes comprar tantos");
-//     } else {
-//       alert("No nos estas tomando en serio, chau");
-//       break; // Rompo el ciclo
-//     }
-//   }
-// }
-
-// let respuesta = prompt("¿Queres comprar un par de borcegos?");
-
-// if (respuesta == "si") {
-//   alert("Estas en el lugar correcto");
-//   console.log("Estás en el lugar correcto");
-//   procesarCompra(); // Aca llamo a la función 
-// } else if (respuesta == "no") {
-//   alert("No deberias estar aquí");
-//   console.log("No deberias estar aquí");
-// } else if (respuesta == "no se") {
-//   alert("Solo sabemos que no sabemos nada");
-//   console.log("Solo sabemos que no sabemos nada");
-// } else {
-//   alert("No respondiste lo que pregunté");
-//   console.log("No respondiste lo que pregunté");
-// }
-
 // Defino los productos como objetos, todos dentro de un array
 const productos = [
   { nombre: "Borcego Andromeda", precio: 27500, color: "negro", categoria: "Borcegos", id: "andromedanegro" },
@@ -47,41 +14,6 @@ const productos = [
   { nombre: "Bota Tauro", precio: 29500, color: "negro", categoria: "Botas", id: "tauronegro" },
 ];
 
-// Funcion para ver los productos verdes 
-function filtrarPorColor(color) {
-  return productos
-    .filter((producto) => producto.color === color)
-    .map((producto) => producto.nombre);
-}
-
-let productosVerdes = filtrarPorColor("Verde");
-console.log("En verde tenemos: ", productosVerdes);
-
-// Aca los productos negros 
-let productosNegros = filtrarPorColor("Negro");
-console.log("En negro tenemos: ", productosNegros);
-
-// Funcion para ver los productos segun un precio maximo establecido 
-function filtrarPorPrecioMax(precioMax) {
-  return productos
-    .filter((producto) => producto.precio <= precioMax)
-    .map((producto) => producto.nombre);
-}
-
-let precioMax = filtrarPorPrecioMax(27500);
-console.log("Productos que valen hasta $27500", precioMax) 
-
-// Funcion para ver la suma de precios de los productos filtrados 
-function sumarPrecioMax(precioMax) {
-  const productosFiltrados = productos.filter((producto) => producto.precio <= precioMax);
-  const sumaPrecios = productosFiltrados.reduce((total, producto) => total + producto.precio, 0);
-  return sumaPrecios;
-}
-
-// Ejemplo de uso
-const sumaPrecios = sumarPrecioMax(27500);
-console.log("Suma de precios de productos de hasta $27500:", sumaPrecios);
-
 // Referencia al boton de agregar al carrito
 const botonesAgregarCarrito = document.querySelectorAll('#botonproducto');
 
@@ -95,9 +27,14 @@ function agregarAlCarrito(event) {
 
     // Guardar el carrito actualizado en el localStorage
     localStorage.setItem('carrito', JSON.stringify(carrito))
+
+    Toastify({
+      text: `Tu producto "${producto.nombre}" ha sido añadido al carrito`,
+      backgroundColor: "green",
+      className: "toastify-center",
+      duration: 4000,
+    }).showToast();    
   
-  // Actualizar la interfaz o realizar cualquier otra acción necesaria o que quiera diriamos
-  console.log(`Se ha agregado al carrito: ${producto.nombre}`);
 }
 
 botonesAgregarCarrito.forEach(boton => {
@@ -142,21 +79,29 @@ let miFormulario = document.getElementById('formularioContacto');
     mensaje: mensaje
   };
 
-
   localStorage.setItem("datosUsuario", JSON.stringify(datosUsuario));
 
   miFormulario.reset();
   });
 
-//Formulario del newsletter
-let formNovedades = document.getElementById('novedades');
 
-formNovedades.addEventListener('submit', evento => {
- let mail = document.getElementById('mailnovedades')
-  if (mail.value === ''){}
-
-  alert("Probando probando");
+  function showSearchNotification() {
+    Swal.fire({
+      title: "Búsqueda no disponible",
+      text: "Parece que aún no tenemos disponible la función de búsqueda en la tienda",
+      icon: "warning",
+      timer: 3000,
+      timerProgressBar: true,
+    });
+  }
   
-  evento.preventDefault();
-});
+  const botonBuscar = document.getElementById("superbtn");
+  botonBuscar.addEventListener("click", (event) => {
+    event.preventDefault();
+    showSearchNotification();
+  });
+
+  
+
+
 
